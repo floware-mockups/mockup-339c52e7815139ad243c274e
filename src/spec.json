@@ -1,0 +1,275 @@
+{
+  "title": "Monitoraggio dei consumi energetici",
+  "description": "Dashboard per consultare e confrontare i consumi mensili degli edifici, registrare nuove letture e individuare gli scostamenti.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Confronto mensile dei consumi registrati negli edifici inventati. La tabella permette di filtrare per edificio e mese.",
+      "metrics": [
+        {
+          "label": "Consumo del mese",
+          "value": "12.480 kWh"
+        },
+        {
+          "label": "Edifici monitorati",
+          "value": "4"
+        },
+        {
+          "label": "Variazione sul mese precedente",
+          "value": "−6,2%"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Mese",
+        "Consumo (kWh)",
+        "Variazione (%)"
+      ],
+      "rows": [
+        [
+          "Palazzo Lumo",
+          "Gen 2025",
+          "3.420",
+          "+2,1%"
+        ],
+        [
+          "Torre Vela",
+          "Gen 2025",
+          "2.760",
+          "−1,4%"
+        ],
+        [
+          "Centro Nubi",
+          "Gen 2025",
+          "3.180",
+          "−8,3%"
+        ],
+        [
+          "Sede Rugiada",
+          "Gen 2025",
+          "3.120",
+          "−10,2%"
+        ],
+        [
+          "Palazzo Lumo",
+          "Feb 2025",
+          "3.310",
+          "−3,2%"
+        ],
+        [
+          "Torre Vela",
+          "Feb 2025",
+          "2.690",
+          "−2,5%"
+        ],
+        [
+          "Centro Nubi",
+          "Feb 2025",
+          "2.940",
+          "−7,5%"
+        ],
+        [
+          "Sede Rugiada",
+          "Feb 2025",
+          "2.870",
+          "−8,0%"
+        ],
+        [
+          "Palazzo Lumo",
+          "Mar 2025",
+          "3.280",
+          "−0,9%"
+        ],
+        [
+          "Torre Vela",
+          "Mar 2025",
+          "2.640",
+          "−1,9%"
+        ],
+        [
+          "Centro Nubi",
+          "Mar 2025",
+          "2.880",
+          "−2,0%"
+        ],
+        [
+          "Sede Rugiada",
+          "Mar 2025",
+          "2.790",
+          "−2,8%"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "letture",
+      "title": "Letture mensili",
+      "description": "Consulta lo storico delle letture e filtra per edificio, mese o tipo di energia. Registra una lettura usando gli stessi campi mostrati nelle colonne.",
+      "metrics": [
+        {
+          "label": "Letture registrate",
+          "value": "12"
+        },
+        {
+          "label": "Ultimo aggiornamento",
+          "value": "Mar 2025"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Mese",
+        "Consumo (kWh)",
+        "Variazione (%)",
+        "Tipo di energia"
+      ],
+      "rows": [
+        [
+          "Palazzo Lumo",
+          "Gen 2025",
+          "3.420",
+          "+2,1%",
+          "Elettricità"
+        ],
+        [
+          "Torre Vela",
+          "Gen 2025",
+          "2.760",
+          "−1,4%",
+          "Elettricità"
+        ],
+        [
+          "Centro Nubi",
+          "Gen 2025",
+          "3.180",
+          "−8,3%",
+          "Elettricità"
+        ],
+        [
+          "Sede Rugiada",
+          "Gen 2025",
+          "3.120",
+          "−10,2%",
+          "Elettricità"
+        ],
+        [
+          "Palazzo Lumo",
+          "Feb 2025",
+          "3.310",
+          "−3,2%",
+          "Elettricità"
+        ],
+        [
+          "Torre Vela",
+          "Feb 2025",
+          "2.690",
+          "−2,5%",
+          "Elettricità"
+        ],
+        [
+          "Centro Nubi",
+          "Feb 2025",
+          "2.940",
+          "−7,5%",
+          "Elettricità"
+        ],
+        [
+          "Sede Rugiada",
+          "Feb 2025",
+          "2.870",
+          "−8,0%",
+          "Elettricità"
+        ],
+        [
+          "Palazzo Lumo",
+          "Mar 2025",
+          "3.280",
+          "−0,9%",
+          "Elettricità"
+        ],
+        [
+          "Torre Vela",
+          "Mar 2025",
+          "2.640",
+          "−1,9%",
+          "Elettricità"
+        ],
+        [
+          "Centro Nubi",
+          "Mar 2025",
+          "2.880",
+          "−2,0%",
+          "Elettricità"
+        ],
+        [
+          "Sede Rugiada",
+          "Mar 2025",
+          "2.790",
+          "−2,8%",
+          "Elettricità"
+        ]
+      ],
+      "form": [
+        "Edificio",
+        "Mese",
+        "Consumo (kWh)",
+        "Variazione (%)",
+        "Tipo di energia"
+      ]
+    },
+    {
+      "id": "edifici",
+      "title": "Edifici monitorati",
+      "description": "Elenco degli edifici e dei relativi referenti organizzativi inventati. Filtra per edificio o categoria.",
+      "metrics": [
+        {
+          "label": "Edifici censiti",
+          "value": "4"
+        },
+        {
+          "label": "Categorie presenti",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Categoria",
+        "Superficie (m2)",
+        "Organizzazione responsabile"
+      ],
+      "rows": [
+        [
+          "Palazzo Lumo",
+          "Uffici",
+          "2.400",
+          "Consorzio Brina"
+        ],
+        [
+          "Torre Vela",
+          "Uffici",
+          "1.850",
+          "Rete Quarzo"
+        ],
+        [
+          "Centro Nubi",
+          "Servizi",
+          "3.100",
+          "Consorzio Brina"
+        ],
+        [
+          "Sede Rugiada",
+          "Servizi",
+          "1.620",
+          "Rete Quarzo"
+        ]
+      ],
+      "form": [
+        "Edificio",
+        "Categoria",
+        "Superficie (m2)",
+        "Organizzazione responsabile"
+      ]
+    }
+  ]
+}
